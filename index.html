@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Blog</title>
+
+   <!--google font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+   <!--font awesome cdn-->
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+   <!--header starts here-->
+   <header id="blog-header">
+      <figure class="logo-figure">
+         <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+      <i class="fas fa-bars fa-4x" id="menu_icon" ></i>
+      <nav id="menu" class="hidden">
+         <ul>
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#blog-about" class="nav_link">About</a></li>
+            <li><a href="#archieves" class="nav_link">Archieves</a></li>
+            <li><a href="#blog-posts" class="nav_link">Blog posts</a></li>
+            <li><a href="contact.html" class="nav_link">contact</a></li>
+
+         </ul>
+      </nav>
+   </header>
+    <!--header ends here-->
+    
+   <main>
+  <!--blog banner section starts here-->
+    <section id="blog-banner-section" class="banner">
+      <article>
+         <h1 class="banner_heading">Web Development</h1>
+         <p class="banner_decription text-justify">
+            I believe Web development is always fun. We should learn web
+            development for a bright career. I have started learning web
+            development in this year ago and still learning. I started with HTML,
+            CSS, JS and now I am learning next.js. I must say web development
+            demands more patience and consistency.
+         </p>
+      </article>
+      <aside>
+      <img src="./img/cover-photo.jpg " 
+      alt="cover photo"
+      class="banner_image">
+
+      </aside>
+    </section>
+     <!--blog banner section ends here-->
+     <!-- about me section  here-->
+
+      <section id="blog-about" class="section-center">
+          <h2 class="section-heading text-white">About Me</h2>
+          <div class="cards">
+            <div class="card">
+               <h3 class="card_header">Education</h3>
+               <p class="card_description ">
+                  It takes monumental improvement for us to change how we live our lives.Design is the way we access that improvement. We are never late from trying to reach our dream. Try hard, practice more and most importantly be consistent.
+               </p>
+               <button class="btn card_btn">Read More</button>
+            </div>
+
+          <div class="card">
+            <h3 class="card_header">Sports</h3>
+            <p class="card_description ">
+               The most important part of sports for females is the same as it is for males: physical and mental well-being, personal growth, and opportunities for skill development and teamwork. the most important part of sports for females is fostering an environment 
+            </p>
+            <button class="btn card_btn">Read More</button> 
+       </div>
+
+       <div class="card">
+         <h3 class="card_header">Travel</h3>
+         <p class="card_description">
+          Traveling to a new place is an opportunity for exploration discovery. It allows you to experience diverse cultures, sights, and adventures, fostering personal growth and broadeni perspectives. Through learning, relaxation.
+         </p>
+         <button class="btn card_btn">Read More</button>
+      </div>
+    </div>
+      </section>
+      <!--Archive section start here-->
+      <section id="archieves" class="section-center">
+         <h2 class="section-heading">Archieves</h2>
+         <div class="archieves-container">
+            <ul class="archieves_lists">
+               <li class="archieves_list">
+                  <img src="./img/img-1.jpg" alt="image1" class="archieves_img"/>
+               </li>
+               <li class="archieves_list">
+                  <img src="./img/img-2.jpg" alt="image2" class="archieves_img"/>
+               </li>
+               <li class="archieves_list">
+                  <img src="./img/img-3.jpg" alt="image3" class="archieves_img"/>
+               </li>
+               <li class="archieves_list">
+                  <img src="./img/img-4.jpg" alt="image4" class="archieves_img"/>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <!--start blog post-->
+
+      <section id="blog-posts"
+      class="section-center">
+      <h2 class="section-heading">Blog Posts</h2>
+       <div class="blog-posts section-center">
+         <div class="blog-post">
+         <aside class="blog-post_aside">
+            <img src="./img/img-2.jpg" alt="blog-img2"/>
+
+
+         </aside>
+         <article class="blog-post_content">
+            <h2 class="blog-post_heading">Blog 1</h2>
+         <h3 class="blog-post_sub-heading">
+            Software Engineering
+
+            </h3>
+            <p class="blog-post_description">
+               Software engineering is a systematic and disciplined approach to designing, developing, and maintaining software systems. It employs various methodologies and tools to ensure the creation of high-quality, scalable, and reliable software solutions to meet specific user requirements.
+            </p>
+            <button class="btn blog-post_btn">Learn More</button>
+         </article>
+      
+       </div>
+         
+       <div class="blog-post">
+         <aside class="blog-post_aside">
+            <img src="./img/img-2.jpg" alt="blog-img2"/>
+
+
+         </aside>
+         <article class="blog-post_content">
+            <h2 class="blog-post_heading">Blog 2</h2>
+         <h3 class="blog-post_sub-heading">
+            Database
+
+            </h3>
+            <p class="blog-post_description">
+               Database concepts involve the systematic organization, storage, and retrieval of structured data to support data management and efficient information access. It includes understanding data models, database management systems, and query languages for effective data manipulation and analysis.
+            </p>
+            <button class="btn blog-post_btn">Learn More</button>
+         </article>
+       </div>
+        
+       <div class="blog-post">
+         <aside class="blog-post_aside">
+            <img src="./img/img-2.jpg" alt="blog-img2"/>
+
+
+         </aside>
+         <article class="blog-post_content">
+            <h2 class="blog-post_heading">Blog 3</h2>
+         <h3 class="blog-post_sub-heading">
+            Baisc Dot Net
+
+            </h3>
+            <p class="blog-post_description">
+               .NET is a software framework developed by Microsoft, offering a platform for building and running applications on Windows-based systems. It supports multiple programming languages, provides a common runtime environment, and offers a vast library of pre-built components, simplifying development and enhancing application compatibility.
+            </p>
+            <button class="btn blog-post_btn">Learn More</button>
+         </article>
+       </div>
+        
+
+
+      </section>
+
+
+       <!--ends blog post-->
+
+       <!--starts contact section -->
+       <!--<section id="contact-section" class="section-center">
+         <h2 class="section-heading text-white">Contact Me </h2>
+          <form>
+            <div class="form-control">
+               <label for="name">Name</label>
+               <input type="name" id="name" autocomplete="name"required>
+            </div>
+            <div class="form-control">
+               <label for="email">Email</label>
+               <input type="email" id="email" autocomplete="email"required>
+            </div>
+            <div class="form-control">
+               <label for="message">Message</label>
+               <textarea name="message" id="message" ></textarea>
+            </div>
+            <div class="form-control form-btn-field">
+               <button class="btn contact_btn">Submit</button>
+            </div>
+         </form>
+       </section> -->
+      
+
+   </main>
+
+   <footer class="footer">
+      <p class="copyright_text">
+      Copyright &copy; by Mariom. All rights reserved
+      </p>
+      <nav class="footer_nav">
+         <a href="#blog-banner-section"class="footer_link">
+            <i class="fas fa-home"></i>
+         </a>
+
+         <a href="https://www.linkedin.com/in/bibi-mariom/" target="_blank" class="footer_link">
+            <i class="fa-brands fa-linkedin-in footer_link"></i>
+         </a>
+         <a href="https://github.com/MariomEmu" target="_blank" class="footer_link">
+            <i class="fa-brands fa-github footer_link"></i>
+         </a>
+         <a href="https://www.facebook.com/Bibi.Mariom.Emu/" target="_blank">
+            <i class="fa-brands fa-facebook-f footer_link"></i>
+         </a>
+      </nav>
+   </footer>
+
+  
+ 
+</body>
+
+</html>
